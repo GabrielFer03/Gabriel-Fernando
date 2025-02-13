@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <center>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="Portiofolio.html">Portiofólio</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+        </header>
+    <div class="contact-container">
+        <h1>Entre em Contato</h1>
+        <p>Você pode falar comigo através das opções abaixo:</p>
+
+        <!-- Opções de Contato -->
+        <div class="contact-options">
+            <div class="contact-item">
+                <a href="https://wa.me/5511999999999" target="_blank">
+                    <button class="contact-button">WhatsApp</button>
+                </a>
+            </div>
+
+            <div class="contact-item">
+                <a href="https://instagram.com/seuperfil" target="_blank">
+                    <button class="contact-button">Instagram</button>
+                </a>
+            </div>
+
+            <div class="contact-item">
+                <button class="contact-button" onclick="callPhone()">Telefone</button>
+            </div>
+        </div>
+
+        <!-- Caixa de Mensagem -->
+        <div class="message-form">
+            <h2>Deixe um Recado</h2>
+            <textarea id="message" placeholder="Escreva seu recado aqui..."></textarea>
+            <button onclick="sendMessage()">Enviar Mensagem</button>
+            <div id="responseMessage"></div>
+        </div>
+    </div>
+    <script src="js/contato.js"></script>
+</center>
+</body>
+</html>

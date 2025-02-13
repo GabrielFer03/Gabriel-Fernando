@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="js/quiz.js"></script>
+</head>
+<body>
+    <center>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="Portiofolio.html">Portiofólio</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+<div class="quiz-container">
+    <h2>Mini Quiz de futebol</h2>
+    <form id="quizForm">
+        <!-- Pergunta 1 -->
+        <div class="question">1.Qual o jogador com mais titúlos na história?</div>
+        <div class="answers">
+            <label><input type="radio" name="q1" value="a">Cristiano Ronaldo</label>
+            <label><input type="radio" name="q1" value="b">Daniel Alves</label>
+            <label><input type="radio" name="q1" value="c">Lionel Messi</label>
+            <label><input type="radio" name="q1" value="d">Manuel Neuer</label>
+        </div>
+
+        <!-- Pergunta 2 -->
+        <div class="question">2.Qual o maior time da história?</div>
+        <div class="answers">
+            <label><input type="radio" name="q2" value="a">Real Madrid</label>
+            <label><input type="radio" name="q2" value="b">Barcelona</label>
+            <label><input type="radio" name="q2" value="c">Bayern de Munique</label>
+            <label><input type="radio" name="q2" value="d">Vasco da Gama</label>
+        </div>
+
+        <!-- Pergunta 3 -->
+        <div class="question">3.Em que ano Neymar ganhou o prêmio "Puskás" de gol mais bonito do ano?</div>
+        <div class="answers">
+            <label><input type="radio" name="q3" value="a">2012</label>
+            <label><input type="radio" name="q3" value="b">2010</label>
+            <label><input type="radio" name="q3" value="c">2013</label>
+            <label><input type="radio" name="q3" value="d">2011</label>
+        </div>
+
+        <!-- Pergunta 4 -->
+        <div class="question">4. Em que ano a seleção Brasileira de futebol ganhou sua primeira copa do mundo?</div>
+        <div class="answers">
+            <label><input type="radio" name="q4" value="a">1950</label>
+            <label><input type="radio" name="q4" value="b">1954</label>
+            <label><input type="radio" name="q4" value="c">1958</label>
+            <label><input type="radio" name="q4" value="d">1962</label>
+        </div>
+
+        <!-- Pergunta 5 -->
+        <div class="question">5. Qual o maior jogador da história?</div>
+        <div class="answers">
+            <label><input type="radio" name="q5" value="a">Pelé</label>
+            <label><input type="radio" name="q5" value="b">Lionel Messi</label>
+            <label><input type="radio" name="q5" value="c">Cristiano Ronaldo</label>
+            <label><input type="radio" name="q5" value="d">Maradona</label>
+        </div>
+
+        <button type="button" onclick="calcularResultado()">Finalizar Quiz</button>
+    </form>
+
+    <div id="resultado" class="result"></div>
+    <a href="IMC.html"><button>Voltar</button></a>
+    <a href="adivinhaçao.html"><button>Próximo</button></a>
+</div>
+</center>
+</body>
+</html>

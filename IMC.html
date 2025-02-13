@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <center>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="Portiofolio.html">Portiofólio</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="calculator">
+        <h1>Calculadora de IMC</h1>
+        <input type="number" id="weight" placeholder="Digite seu peso (kg)" step="0.1">
+        <input type="number" id="height" placeholder="Digite sua altura (m)" step="0.01">
+        <button onclick="calculateIMC()">Calcular IMC</button>
+        <p id="result">Resultado: </p>
+    </div>
+
+    <script src="js/IMC.js"></script>
+
+    <a href="celsiusfahe.html"><button>Voltar</button></a>
+    <a href="quiz.html"><button>Próximo</button></a>
+</center>
+</body>
+</html>
